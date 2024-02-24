@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a onclick="scrollToSection('home')">  <div class="logo"><img src="./img/chinese-food.png"  />Chinese Food</div></a>
+    
+        <nav>
+          <a onclick="scrollToSection('home')">Home</a>
+          <a  onclick="scrollToSection('menu')">Menu</a>
+          <a onclick="scrollToSection('about-us')">About us</a>
+          <a onclick="scrollToSection('contact-us')">Contact us</a>
+        </nav>
+      </div>
+    </header>   
+    <section id="home">
+      <img src="https://cdn.pixabay.com/photo/2019/05/28/00/14/breakfast-4234067_1280.jpg" width="100%"/>
+    </section>
+
+   
+    <section id="menu">
+
+   
+    <div class="container">
+      <!-- Labels for tabs -->
+       <div class="texto-superpuesto"><h1>Menu</h1></div>
+       <div class="tab">
+         <button class="tablinks"  onclick="openMenu(event, 'Sopas')">Sopas</button>
+         <button class="tablinks" onclick="openMenu(event, 'Postres')">Postres</button>
+         <button class="tablinks" onclick="openMenu(event, 'Bebidas')">Bebidas</button>
+       </div>
+       <!-- Menu lists -->
+       <div id="Sopas" class="tabcontent" >
+         <div class="list-menu">
+             
+             <dl>
+               <dt>Sopa de Tomate <span>$5.99</span></dt>
+               <dd>Una deliciosa sopa de tomate.</dd>
+               <dt>Sopa de Cebolla <span>$6.99</span></dt>
+               <dd>Una suave sopa de cebolla caramelizada.</dd>
+               <dt>Sopa de Lentejas <span>$4.99</span></dt>
+               <dd>Una abundante sopa de lentejas con verduras mixtas.</dd>
+               <dt>Sopa de Pollo <span>$7.99</span></dt>
+               <dd>Una clásica sopa de pollo con fideos y vegetales.</dd>
+               <dt>Sopa de Fideos <span>$3.99</span></dt>
+               <dd>Una tradicional sopa de fideos con caldo casero.</dd>
+             </dl>
+         </div>
+         
+       </div>
+   
+       <div class="tabcontent" id="Bebidas">
+      <div class="list-menu">
+        <dl>
+           <dt>Refresco de Cola <span>$1.99</span></dt>
+           <dd>Refresco clásico de cola, perfecto para acompañar tu comida.</dd>
+           <dt>Jugo de Naranja <span>$2.49</span></dt>
+           <dd>Jugo fresco y natural de naranja, una opción saludable y deliciosa.</dd>
+           <dt>Café Americano <span>$2.99</span></dt>
+           <dd>Café negro clásico, ideal para despertar tus sentidos.</dd>
+           <dt>Agua Mineral <span>$0.99</span></dt>
+           <dd>Agua mineral natural, una opción refrescante y sin calorías.</dd>
+           <dt>Smoothie de Frutas <span>$3.49</span></dt>
+           <dd>Mezcla de frutas frescas en un smoothie delicioso y nutritivo.</dd>
+         </dl>
+      </div>
+        
+       </div>
+   
+       <div class="tabcontent" id="Postres">
+        <div class="list-menu">
+         <dl>
+           <dt>Pastel de Chocolate <span>$7.99</span></dt>
+       <dd>Delicioso pastel de chocolate con cobertura suave y esponjoso en cada bocado.</dd>
+       <dt>Helado de Vainilla <span>$6.99</span></dt>
+       <dd>Helado cremoso de vainilla, perfecto para satisfacer tu antojo de postre.</dd>
+       <dt>Tarta de Manzana <span>$5.99</span></dt>
+       <dd>Tarta clásica de manzana con una mezcla perfecta de dulce y crujiente.</dd>
+       <dt>Mousse de Frambuesa <span>$8.99</span></dt>
+       <dd>Mousse ligero y aireado de frambuesa, una delicia refrescante después de la comida.</dd>
+       <dt>Cheesecake <span>$9.99</span></dt>
+       <dd>Cheesecake suave y cremoso con una base crujiente, una opción indulgente.</dd>
+         </dl> 
+        </div>
+        
+       </div>
+   
+       </div>
+     </div>
+    </section>
+
+    <section id="about-us">
+      <div class="texto-superpuesto"><h1>About us</h1></div>
+      <div class="container-about">
+<div class="text-information">
+        <p>Somos san jise, un lugar donde la exquisitez se encuentra con la tradición. Fundado en 1890, nos enorgullece ofrecer a nuestros clientes una experiencia culinaria única que combina sabores auténticos, ingredientes frescos y un toque moderno.
+
+          En san jose, nuestra misión es crear momentos memorables a través de la comida. Cada plato que servimos refleja la pasión de nuestro equipo de chefs por la gastronomía, utilizando ingredientes cuidadosamente seleccionados para garantizar la máxima calidad y sabor.
+          
+          Nuestra carta presenta una variedad de opciones, desde platos clásicos que rinden homenaje a las recetas tradicionales hasta creaciones innovadoras que exploran nuevas fronteras culinarias. Nos esforzamos por satisfacer los paladares más exigentes, brindando una experiencia única a cada comensal.
+          
+          Además de nuestra dedicación a la excelencia culinaria, en san jose valoramos el servicio excepcional y el ambiente acogedor. Queremos que cada visita sea más que una simple comida; queremos que sea una celebración de la buena comida, la buena compañía y la hospitalidad.
+          
+          Ya sea que nos visites para una cena íntima, una reunión de negocios o una celebración especial, en san jose nos comprometemos a superar tus expectativas. Descubre la historia detrás de cada plato y únete a nosotros en un viaje gastronómico que celebra la diversidad de sabores y la pasión por la buena comida.
+          
+          Bienvenido a san jose, donde la tradición y la innovación se encuentran para ofrecerte una experiencia culinaria inolvidable.
+          </p> 
+      </div>
+      <div class="image-container">
+        <img src="https://cdn.pixabay.com/photo/2019/02/21/19/00/restaurant-4011989_1280.jpg"/> 
+      </div>
+      </div>
+      
+     
+    
+    </section>
+
+    <section id="contact-us">
+<footer>
+  <h2>Contact</h2>
+  <div class="items-footer">
+    <h4>Phone</h4>
+    <p>32099944</p>
+  </div>
+  <div class="items-footer">
+    <h4>Address</h4>
+    <p>Calle 15 #4-20</p>
+  </div>
+  <div class="items-footer">
+    <h4>E-mail</h4>
+    <a  href="carlo@gmail.com">carlo@gmail.com</a>
+  </div>
+
+</footer>
+    </section>
+     <script src="./index.js"></script>
+  </body>
+</html>
